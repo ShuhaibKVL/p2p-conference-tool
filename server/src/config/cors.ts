@@ -1,6 +1,5 @@
 const corsOptions = {
-    origin: process.env.CLIENT_URL,
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type', 'Authorization']
+    origin: "*",
+    methods: ['GET', 'POST', 'PUT', 'DELETE']
 }
 export default corsOptions
